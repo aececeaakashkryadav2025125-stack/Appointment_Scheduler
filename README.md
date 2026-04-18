@@ -36,3 +36,39 @@ A full-stack appointment booking system where users can register, login, and boo
 ## 🔐 Environment Variables
 
 Create `.env` file:
+DB_HOST=localhost
+DB_USER=root
+DB_PASS=
+DB_NAME=appointment_system
+
+
+---
+
+## 🔗 API Endpoints
+
+- POST /register  
+- POST /login  
+- POST /appointments  
+- GET /appointments  
+
+---
+
+## ✅ Features
+- User Authentication (Register/Login)
+- Appointment Booking
+- Time Slot Conflict Prevention
+- REST API Integration
+- Full-stack deployment
+
+---
+
+## 🌐 Live Application
+
+Frontend: https://your-app.vercel.app  
+Backend: https://your-backend-url.com  
+
+---
+
+## 👨‍💻 Author
+
+Aakash Kumar Yadav  
