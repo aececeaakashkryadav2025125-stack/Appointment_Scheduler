@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Appointment System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Appointment System</h2>
+
+<div class="container">
+
+    <!-- REGISTER -->
+    <h3>Register</h3>
+    <input type="text" id="name" placeholder="Name">
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="register()">Register</button>
+
+    <!-- LOGIN -->
+    <h3>Login</h3>
+    <input type="email" id="loginEmail" placeholder="Email">
+    <input type="password" id="loginPassword" placeholder="Password">
+    <button onclick="login()">Login</button>
+
+    <!-- BOOK -->
+    <h3>Book Appointment</h3>
+    <input type="date" id="date">
+    <input type="time" id="time">
+    <button onclick="book()">Book</button>
+
+    <!-- GET -->
+    <h3>Appointments</h3>
+    <button onclick="getAppointments()">Load Appointments</button>
+    <ul id="list"></ul>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
