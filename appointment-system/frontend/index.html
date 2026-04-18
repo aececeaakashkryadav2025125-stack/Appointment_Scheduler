@@ -6,35 +6,47 @@
 </head>
 <body>
 
-<h2>Appointment System</h2>
+<h2>📅 Appointment Booking System</h2>
 
 <div class="container">
 
+    <p id="status"></p>
+
     <!-- REGISTER -->
     <h3>Register</h3>
-    <input type="text" id="name" placeholder="Name">
-    <input type="email" id="email" placeholder="Email">
-    <input type="password" id="password" placeholder="Password">
+    <input type="text" id="name" placeholder="Enter Name">
+    <input type="email" id="email" placeholder="Enter Email">
+    <input type="password" id="password" placeholder="Enter Password">
     <button onclick="register()">Register</button>
 
     <!-- LOGIN -->
     <h3>Login</h3>
-    <input type="email" id="loginEmail" placeholder="Email">
-    <input type="password" id="loginPassword" placeholder="Password">
+    <input type="email" id="loginEmail" placeholder="Enter Email">
+    <input type="password" id="loginPassword" placeholder="Enter Password">
     <button onclick="login()">Login</button>
 
     <!-- BOOK -->
     <h3>Book Appointment</h3>
     <input type="date" id="date">
     <input type="time" id="time">
-    <button onclick="book()">Book</button>
+    <button onclick="book()">Book Appointment</button>
 
     <!-- GET -->
-    <h3>Appointments</h3>
+    <h3>Your Appointments</h3>
     <button onclick="getAppointments()">Load Appointments</button>
     <ul id="list"></ul>
 
 </div>
+
+<!-- ✅ FOOTER (IMPORTANT) -->
+<footer>
+    <hr>
+    <p>Made by <strong>Aakash Kumar Yadav</strong></p>
+    <p>
+        <a href="https://github.com/aececeaakashkryadav2025125-stack" target="_blank">GitHub</a> |
+        <a href="https://linkedin.com/in/YOUR_LINKEDIN" target="_blank">LinkedIn</a>
+    </p>
+</footer>
 
 <script src="app.js"></script>
 
